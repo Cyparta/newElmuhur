@@ -8750,9 +8750,3 @@ blockquote:after {
   -webkit-animation: down-up-two 10s infinite;
   animation: down-up-two 10s infinite;
 }
-/* .portfolio-active .item {
-  display: none;
-}
-.portfolio-active .item.active {
-  display: block;
-} */
