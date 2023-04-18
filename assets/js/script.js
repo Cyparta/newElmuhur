@@ -827,7 +827,7 @@
       });
     }
   });
-  let i = 0;
+  //   let i = 0;
   const itemsPerPage = 10;
   const clickButton = $(".portfolio-more-btn a");
 
@@ -835,16 +835,15 @@
   console.log(clickButton);
   function showItems() {
     const startIndex = (currentPage - 1) * itemsPerPage;
-    i = startIndex;
+
     const endIndex = startIndex + itemsPerPage;
     console.log($(".portfolio-active").children(".item").length);
 
     for (let i = 0; i < $(".portfolio-active").children(".item").length; i++) {
-      const item = $(".portfolio-active .item")[i];
+      const item = $(".portfolio-active").children(".item")[i];
       console.log(item);
-      if (i >= startIndex && i < endIndex) {
-        console.log(i, $(`${item}`));
-        item.style.display = "block";
+      if (i > startIndex && i <= endIndex) {
+        item.style.opacity = 1;
       }
     }
   }
@@ -852,7 +851,6 @@
   clickButton.on("click", function (e) {
     e.preventDefault();
     currentPage++;
-
     showItems();
   });
 })(window.jQuery);
