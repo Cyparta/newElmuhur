@@ -66,7 +66,7 @@
     // 02. Dropdown menu
     var mobileWidth = 992;
     var navcollapse = $(".navigation li.dropdown");
-
+    
     navcollapse.hover(function () {
       if ($(window).innerWidth() >= mobileWidth) {
         $(this).children("ul").stop(true, false, true).slideToggle(300);

@@ -404,7 +404,7 @@ input[type="radio"] {
 /** Button style **/
 .theme-btn,
 a.theme-btn {
-  color: white;
+  color: black;
   cursor: pointer;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
