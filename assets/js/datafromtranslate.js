@@ -90,6 +90,7 @@ const translations = {
     faqs: "faqs",
     payments: "Payments",
     cansultation: "Cansultation",
+    july: "July",
     /* slider one in landing page */
   },
   ar: {
@@ -149,7 +150,7 @@ const translations = {
     molasses: "دبس السكر",
     vinegar: "خل",
     pepper: "فلفل",
-    photo: "صورة",
+    photo: "",
     exhibition: "معرض",
     wordfoodistanbul: "معرض الغذاء في اسطنبول",
     freshfoodvegetable: "الخضروات الطازجة",
@@ -183,5 +184,6 @@ const translations = {
     copyright: "جميع الحقوق محفوظة لشركة المهور 2023",
     faqs: "الأسئلة الشائعة",
     payments: "المدفوعات",
+    july: "يوليو",
   },
 };
