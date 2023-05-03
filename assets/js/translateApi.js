@@ -39,7 +39,7 @@ function setLanguage() {
       if (element.textContent === "July") {
         element.style.textAlign = "center";
       }
-      console.log(translations[valueoflanguage][translationKey]);
+      // document.dir = "ltr";
     } else {
       element.innerText = translations[valueoflanguage][translationKey];
       element.style.textAlign = "right";
@@ -49,6 +49,7 @@ function setLanguage() {
       if (element.textContent === "يوليو") {
         element.style.textAlign = "center";
       }
+      // document.dir = "rtl";
       console.log(translations[valueoflanguage][translationKey]);
     }
   });
