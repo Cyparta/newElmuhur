@@ -82,8 +82,15 @@
                     <div class="header-inner d-flex align-items-center">
                         <div class="logo-outer">
                             <div class="logo"><a href="index.html"><img src="assets/images/logos/logo.png" alt="Logo" title="Logo"></a></div>
+                            
                         </div>
-
+                        <div id="my-select" class="d-flex justify-content-evenly align-items-center">
+                            <select  id="valueneed" name="country" class="theme-btn">
+                                <option value="en" data-i18n="english">English</option>
+                                <option value="ar" data-i18n="arabic">Arabic</option>
+                            </select>
+                            <button id="doneclick" class="theme-btn" data-i18n="change">Change</button>
+                        </div>
                         <div class="nav-outer clearfix">
                             <!-- Main Menu -->
                             <nav class="main-menu navbar-expand-lg">
@@ -101,7 +108,7 @@
                                         <span class="icon-bar"></span>
                                     </button>
                                 </div>
-
+                                
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li><a href="index.html" data-i18n="home">Home</a></li>
@@ -116,8 +123,9 @@
                                         <li><a href="contact.html" data-i18n="contact">Contact</a></li>
                                     </ul>
                                 </div>
-                                
+                              
                             </nav>
+                           
                             <!-- Main Menu End-->
                         </div>
                         
@@ -142,13 +150,7 @@
                                     <i class="far fa-ellipsis-h"></i>
                                 </button>
                             </div>
-                            <div id="my-select" class="d-flex justify-content-evenly align-items-center">
-                                <select  id="valueneed" name="country" class="theme-btn">
-                                    <option value="en" data-i18n="english">English</option>
-                                    <option value="ar" data-i18n="arabic">Arabic</option>
-                                </select>
-                                <button id="doneclick" class="theme-btn" data-i18n="change">Change</button>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -350,16 +352,16 @@
                             </div>
                             <ul class="nav jusctify-content-between">
                                 <li>
-                                   <a class="nav-link active" data-toggle="tab" href="#agriculture">
+                                   <!-- <a class="nav-link active" data-toggle="tab" href="#agriculture"> </a> -->
                                        <i class="flaticon-spa"></i>
                                        <h4 ><a href="" data-i18n="agriculture">Agriculture & Foods</a></h4>
-                                   </a>
+                                  
                                 </li>
                                 <li>
-                                    <a class="nav-link" data-toggle="tab" href="#vegetables">
+                                    <!-- <a class="nav-link" data-toggle="tab" href="#vegetables"> </a> -->
                                         <i class="flaticon-spa"></i>
                                        <h4><a href=""data-i18n="vegetable">Vegetables & Fruits</a></h4>
-                                    </a>
+                                   
                                 </li>
                             </ul>
                             <div class="tab-content pt-25">
@@ -600,7 +602,7 @@
                     </div>
                 </div>
            </div>
-            <div class="container-fluid">
+            <div class="container-fluid d">
                 <div class="gallery-active">
                     <div class="gallery-item wow fadeInUp delay-0-2s">
                         <img src="assets/images/gellery/gallery1.jpg" alt="Gallery">

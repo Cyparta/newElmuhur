@@ -39,7 +39,30 @@ function setLanguage() {
       if (element.textContent === "July") {
         element.style.textAlign = "center";
       }
-      // document.dir = "ltr";
+      document.dir = "ltr";
+      // console.log($("product-active").prevObject[0]);
+
+      // $(".gallery-active").slick({
+      //   dir: "ltr",
+      //   // $(".gallery-active").slick({
+      //   dots: false,
+      //   infinite: true,
+      //   autoplay: false,
+      //   autoplaySpeed: 5000,
+      //   arrows: true,
+      //   speed: 1000,
+      //   slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   variableWidth: true,
+      //   prevArrow: $(".gallery-prev"),
+      //   nextArrow: $(".gallery-next"),
+      //   // });
+      // });
+      // console.log();
+
+      // document.querySelector(".slick-list").style.direction = "ltr";
+      // console.log($(".slick-slider"));
+      // console.log($(".slick-list"));
     } else {
       element.innerText = translations[valueoflanguage][translationKey];
       element.style.textAlign = "right";
@@ -49,8 +72,32 @@ function setLanguage() {
       if (element.textContent === "يوليو") {
         element.style.textAlign = "center";
       }
-      // document.dir = "rtl";
-      console.log(translations[valueoflanguage][translationKey]);
+      document.dir = "rtl";
+      // $("product-active").style.dir = "rtl";
+      // console.log(());
+      // $(".gallery-active").slick({
+      //   dir: "rtl",
+      // });
+      // $(".gallery-active").slick({
+      //   dir: "rtl",
+      //   // $(".gallery-active").slick({
+      //   dots: false,
+      //   infinite: true,
+      //   autoplay: false,
+      //   autoplaySpeed: 5000,
+      //   arrows: true,
+      //   speed: 1000,
+      //   slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   variableWidth: true,
+      //   prevArrow: $(".gallery-prev"),
+      //   nextArrow: $(".gallery-next"),
+      //   // });
+      // });
+      // console.log($(".gallery-active"));
+      // document.querySelector(".slick-list").style.direction = "ltr";
+      // console.log($(".slick-slider").css("direction", "rtl"));
+      // console.log(translations[valueoflanguage][translationKey]);
     }
   });
 }

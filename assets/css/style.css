@@ -4869,9 +4869,9 @@ blockquote,
   margin-bottom: -30px;
 }
 @media only screen and (min-width: 1400px) {
-  .about-images {
+  /* .about-images {
     margin-left: -125px;
-  }
+  } */
 }
 @media only screen and (min-width: 1200px) {
   .about-images {
