@@ -12,7 +12,7 @@
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
-  direction: ltr !important;
+
 }
 .slick-list {
   position: relative;
@@ -20,7 +20,7 @@
   overflow: hidden;
   margin: 0;
   padding: 0;
-  direction: ltr !important;
+
 }
 .slick-list:focus {
   outline: 0;
@@ -28,7 +28,7 @@
 .slick-list.dragging {
   cursor: pointer;
   cursor: hand;
-  direction: ltr !important;
+
 }
 .slick-slider .slick-list,
 .slick-slider .slick-track {
@@ -37,7 +37,7 @@
   -ms-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  direction: ltr !important;
+
 }
 .slick-track {
   position: relative;

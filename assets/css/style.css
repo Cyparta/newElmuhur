@@ -8750,3 +8750,10 @@ blockquote:after {
   -webkit-animation: down-up-two 10s infinite;
   animation: down-up-two 10s infinite;
 }
+.content {
+  margin-top: 47px;
+}
+.theme-btn,
+.read-more {
+  direction: ltr !important;
+}
