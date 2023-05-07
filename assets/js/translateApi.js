@@ -26,6 +26,7 @@ function setLanguage() {
   datafromi18n.forEach((element) => {
     const translationKey = element.getAttribute("data-i18n");
     if (valueoflanguage === "en") {
+      $("#valueneed").val("en");
       element.innerText = translations[valueoflanguage][translationKey];
       element.style.textAlign = "left";
       if (element.tagName === "SPAN") {
@@ -40,6 +41,7 @@ function setLanguage() {
       $("h2").css("textAlign", "center");
       $(".theme-btn").css("direction", "ltr");
     } else {
+      $("#valueneed").val("ar");
       element.innerText = translations[valueoflanguage][translationKey];
       element.style.textAlign = "right";
       if (element.tagName === "SPAN" && element.textContent !== "يوليو") {

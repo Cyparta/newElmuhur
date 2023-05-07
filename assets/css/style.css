@@ -8634,9 +8634,12 @@ blockquote:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-evenly;
 }
 .contact-widget ul li:not(:last-child) {
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .contact-widget ul li i {
   font-size: 18px;
@@ -8756,4 +8759,10 @@ blockquote:after {
 .theme-btn,
 .read-more {
   direction: ltr !important;
+}
+.flexul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
