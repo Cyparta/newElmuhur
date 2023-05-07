@@ -183,6 +183,9 @@ textarea,
   background-color: #fff;
   border: 1px solid rgba(118, 167, 19, 0.15);
 }
+.nice-select .current {
+  padding: 0px 17px;
+}
 @media only screen and (min-width: 576px) {
   input,
   select,
@@ -3877,7 +3880,7 @@ blockquote,
 }
 .main-menu .navbar-header .navbar-toggle {
   float: right;
-  padding: 4px 0;
+  padding: 4px;
   cursor: pointer;
   background: transparent;
 }
@@ -8718,6 +8721,7 @@ blockquote:after {
 .main-footer {
   z-index: 1;
   position: relative;
+  padding: 64px 0px 0px 0px;
 }
 .main-footer .footer-shapes img {
   z-index: -1;

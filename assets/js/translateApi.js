@@ -40,6 +40,7 @@ function setLanguage() {
       $(".content").css("textAlign", "left");
       $("h2").css("textAlign", "center");
       $(".theme-btn").css("direction", "ltr");
+      $(".hidden-bar").css("right", "0px");
     } else {
       $("#valueneed").val("ar");
       element.innerText = translations[valueoflanguage][translationKey];
@@ -55,6 +56,10 @@ function setLanguage() {
       $("h2").css("textAlign", "center");
       $(".content").css("textAlign", "right");
       $(".theme-btn").css("direction", "rtl");
+      $(".copyright-area .footer-menu li:last-child").css({
+        "margin-right": "35px",
+      });
+      $(".hidden-bar").css("right", "calc(100% - 350px)");
     }
   });
 }
