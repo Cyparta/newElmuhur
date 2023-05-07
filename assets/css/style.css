@@ -8643,7 +8643,7 @@ blockquote:after {
 }
 .contact-widget ul li i {
   font-size: 18px;
-  margin: 6px 15px 0 0;
+  margin: 6px 15px 0;
 }
 
 .news-widget li {
@@ -8760,7 +8760,7 @@ blockquote:after {
 .read-more {
   direction: ltr !important;
 }
-.flexul{
+.flexul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
